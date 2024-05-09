@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0-rc.42](https://github.com/vuepress-theme-hope/vuepress-theme-hope/compare/v2.0.0-rc.40...v2.0.0-rc.42) (2024-05-09)
+
+### Test Features
+
+- downgrade to v7 and update config to test ([e192e70](https://github.com/vuepress-theme-hope/vuepress-theme-hope/commit/e192e704c004ccec71a97c21e1e71e552e0d7f28))
+
 ## [2.0.0-rc.40](https://github.com/vuepress-theme-hope/vuepress-theme-hope/compare/v2.0.0-rc.39...v2.0.0-rc.40) (2024-05-09)
 
 ### Bug Fixes
