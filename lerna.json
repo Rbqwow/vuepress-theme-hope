@@ -1,12 +1,11 @@
 {
   "npmClient": "pnpm",
-  "version": "2.0.0-rc.40",
+  "version": "2.0.0-rc.41",
   "command": {
     "version": {
-      "allowBranch": "main",
+      "allowBranch": "dry-run",
       "conventionalCommits": true,
       "exact": true,
-      "message": "build: publish v%v",
       "syncWorkspaceLock": true
     }
   },
@@ -17,11 +16,11 @@
     "types": [
       {
         "type": "feat",
-        "section": "Features"
+        "section": "Test Features"
       },
       {
         "type": "feature",
-        "section": "Features"
+        "section": "Test Features"
       },
       {
         "type": "fix",
@@ -47,8 +46,7 @@
       },
       {
         "type": "chore",
-        "section": "Miscellaneous Chores",
-        "hidden": true
+        "section": "Miscellaneous Chores"
       },
       {
         "type": "refactor",
