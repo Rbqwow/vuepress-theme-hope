@@ -38,14 +38,9 @@ We are enabling lazyload using native HTML5 features, so your browser must suppo
 
 GFM supports marking pictures by ID suffix so that pictures are only displayed in a specific mode. We support both GitHub's markup and the easy markup `#light` and `#dark`.
 
-You can enable it using `imgMark` option.
+You can enable it using `imgMark` option. <ColorModeSwitch /> (Try to toggle theme mode)
 
 ::: md-demo Image mark demo
-
-<ColorModeSwitch /> (Try to toggle theme mode)
-
-![GitHub Light](/assets/image/github-light.svg#gh-dark-mode-only)
-![GitHub Dark](/assets/image/github-dark.svg#gh-light-mode-only)
 
 ![GitHub Light](/assets/image/github-light.svg#dark)
 ![GitHub Dark](/assets/image/github-dark.svg#light)

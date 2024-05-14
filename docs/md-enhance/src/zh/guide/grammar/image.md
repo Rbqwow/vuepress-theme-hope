@@ -42,19 +42,12 @@ export default {
 
 GFM 支持通过 ID 标记图片，使得图片只在特定的模式显示。我们同时支持 GitHub 的标记与简易标记 `#light` 和 `#dark`。
 
-你可以通过 `imgMark` 选项控制它。
+你可以通过 `imgMark` 选项控制它。<ColorModeSwitch /> (尝试切换主题)
 
 ::: md-demo ID 标记 案例
 
-<ColorModeSwitch /> (尝试切换主题)
-
-```md
-![GitHub Light](/assets/image/github-light.svg#gh-dark-mode-only)
-![GitHub Dark](/assets/image/github-dark.svg#gh-light-mode-only)
-
 ![GitHub Light](/assets/image/github-light.svg#dark)
 ![GitHub Dark](/assets/image/github-dark.svg#light)
-```
 
 :::
 
