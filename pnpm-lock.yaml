@@ -1117,8 +1117,8 @@ importers:
         specifier: 2.0.0-rc.28
         version: 2.0.0-rc.28(typescript@5.4.5)(vuepress@2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.11)(jiti@1.21.0)(sass@1.77.1)(terser@5.31.0)(tsx@4.10.1)(typescript@5.4.5))(@vuepress/bundler-webpack@2.0.0-rc.9(esbuild@0.21.2)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))
       '@vuepress/plugin-prismjs':
-        specifier: 2.0.0-rc.28
-        version: 2.0.0-rc.28(vuepress@2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.11)(jiti@1.21.0)(sass@1.77.1)(terser@5.31.0)(tsx@4.10.1)(typescript@5.4.5))(@vuepress/bundler-webpack@2.0.0-rc.9(esbuild@0.21.2)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))
+        specifier: 2.0.0-rc.30
+        version: 2.0.0-rc.30(vuepress@2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.11)(jiti@1.21.0)(sass@1.77.1)(terser@5.31.0)(tsx@4.10.1)(typescript@5.4.5))(@vuepress/bundler-webpack@2.0.0-rc.9(esbuild@0.21.2)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))
       '@vuepress/plugin-pwa':
         specifier: 2.0.0-rc.28
         version: 2.0.0-rc.28(@types/babel__core@7.20.5)(typescript@5.4.5)(vuepress@2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.11)(jiti@1.21.0)(sass@1.77.1)(terser@5.31.0)(tsx@4.10.1)(typescript@5.4.5))(@vuepress/bundler-webpack@2.0.0-rc.9(esbuild@0.21.2)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))
@@ -3586,6 +3586,11 @@ packages:
     resolution: {integrity: sha512-CsKBmGRnY+h3iElxdi1Te4g6pzfSdBePBLWXq89IqOchFI5sOabJWKso0R5bnE1mDdT2doGjDmDvzrUZvaoK+w==}
     peerDependencies:
       vuepress: 2.0.0-rc.9
+
+  '@vuepress/plugin-prismjs@2.0.0-rc.30':
+    resolution: {integrity: sha512-BK1E4uRkQUTz+KZWZhdFi0lvkkyTRW2LYTJ5ntErYBDDrU0eZteqoDgNLlp5Tor6949Vx3m6wX4UaQNOqW0wAA==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.11
 
   '@vuepress/plugin-pwa@2.0.0-rc.28':
     resolution: {integrity: sha512-P5z5JwfS/ad3jDmYOb3r3++6Q1tw8rhgiEcyuaeKQxPqYwc6HRK2kK6UH6//eXG4GVhxwxmMTWqeHwBOGm971w==}
@@ -11912,6 +11917,11 @@ snapshots:
       - typescript
 
   '@vuepress/plugin-prismjs@2.0.0-rc.28(vuepress@2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.11)(jiti@1.21.0)(sass@1.77.1)(terser@5.31.0)(tsx@4.10.1)(typescript@5.4.5))(@vuepress/bundler-webpack@2.0.0-rc.9(esbuild@0.21.2)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))':
+    dependencies:
+      prismjs: 1.29.0
+      vuepress: 2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.11)(sass@1.77.1)(terser@5.31.0)(tsx@4.10.1)(typescript@5.4.5))(@vuepress/bundler-webpack@2.0.0-rc.9(esbuild@0.21.2)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5))
+
+  '@vuepress/plugin-prismjs@2.0.0-rc.30(vuepress@2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.11)(jiti@1.21.0)(sass@1.77.1)(terser@5.31.0)(tsx@4.10.1)(typescript@5.4.5))(@vuepress/bundler-webpack@2.0.0-rc.9(esbuild@0.21.2)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))':
     dependencies:
       prismjs: 1.29.0
       vuepress: 2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.11)(sass@1.77.1)(terser@5.31.0)(tsx@4.10.1)(typescript@5.4.5))(@vuepress/bundler-webpack@2.0.0-rc.9(esbuild@0.21.2)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5))
