@@ -134,9 +134,7 @@ export default theme(
         mark: true,
       },
 
-      markdownMath: {
-        type: "mathjax",
-      },
+      markdownMath: true,
 
       mdEnhance: {
         align: true,
